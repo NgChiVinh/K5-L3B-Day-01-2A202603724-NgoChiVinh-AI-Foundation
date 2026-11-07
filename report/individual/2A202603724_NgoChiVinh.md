@@ -16,6 +16,15 @@
 
 ## 2. Kết quả chính
 
+                                     f1  f1_SUB
+1. BoW + LogReg (tự code)        0.890   0.889
+2. BoW + MLP (deep learning)     0.955   0.974
+3a. Encoder (MiniLM) + kNN       0.888   0.952
+3b. Encoder (MiniLM) + LogReg    0.939   0.919
+3c. Encoder (MiniLM) + MLP head  0.933   0.865
+4a. LLM nhỏ zero-shot            0.927   0.927
+4c. LLM nhỏ few-shot             0.927   0.927
+
 *Chép bảng so sánh cuối Phần 5 (F1 test, F1 SUB 40, p95 ms/tin, USD/1k tin) của chính bạn.*
 
 ## 3. Dự đoán và thực tế
